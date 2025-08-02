@@ -1,26 +1,12 @@
 /*!
- * Bootscore custom styles
+ * Custom styles
  */
 
 // Add your own code here!
 // Because this file is compiled after Bootstrap, you're also able to use Bootstrap mixins for better code.
-// Some examples can be found here: https://bootscore.me/documentation/bootstrap-css-sass
-
-// Bootswatch Sandstone custom styles
-// Sandstone 5.3.7
-// Bootswatch
-
-
-// Variables
-
-$web-font-path: "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" !default;
-@if $web-font-path {
-  @import url("#{$web-font-path}");
-}
-
-// Navbar
-
-.sandstone {
+// You can leverage Bootstrap mixins for more concise code.
+// Typography helper
+%theme-uppercase {
   font-size: 13px;
   font-weight: 500;
   line-height: 22px;
@@ -29,7 +15,7 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;70
 
 .navbar {
   .nav-link {
-    @extend .sandstone;
+    @extend %theme-uppercase;
   }
 
   &-form input,
@@ -41,7 +27,7 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;70
 // Buttons
 
 .btn {
-  @extend .sandstone;
+  @extend %theme-uppercase;
 
   &:hover {
     border-color: transparent;
@@ -86,7 +72,7 @@ input,
 
 .nav-tabs {
   .nav-link {
-    @extend .sandstone;
+    @extend %theme-uppercase;
     background-color: $gray-200;
     border-color: $gray-300;
   }
@@ -108,7 +94,7 @@ input,
 
 .nav-pills {
   .nav-link {
-    @extend .sandstone;
+    @extend %theme-uppercase;
     color: $gray-600;
     border: 1px solid transparent;
   }
@@ -130,12 +116,12 @@ input,
 
 
 .breadcrumb {
-  @extend .sandstone;
+  @extend %theme-uppercase;
   border: 1px solid $gray-300;
 }
 
 .pagination {
-  @extend .sandstone;
+  @extend %theme-uppercase;
 
   a:hover {
     text-decoration: none;
@@ -144,7 +130,7 @@ input,
 
 .dropdown-menu {
   .dropdown-item {
-    @extend .sandstone;
+    @extend %theme-uppercase;
   }
 }
 
@@ -237,7 +223,7 @@ input,
 }
 
 .tooltip {
-  @extend .sandstone;
+  @extend %theme-uppercase;
 }
 
 // Containers
