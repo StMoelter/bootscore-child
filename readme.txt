@@ -6,8 +6,8 @@ Requires at least: 5.0
 Tested up to: 6.6
 Requires PHP: 7.4
 Stable tag: 6.0.0
-License: MIT License
-License URI: https://github.com/bootscore/bootscore-child/blob/main/LICENSE
+License: GNU General Public License v2.0
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 
 == Description ==

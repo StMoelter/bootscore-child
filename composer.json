@@ -2,7 +2,7 @@
     "name": "bootscore/bootscore-child",
     "description": "child theme for bootscore",
     "type": "wordpress-theme",
-    "license": "MIT",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "The Bootscore Authors"
